@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: rgba(192, 192, 192, 0.1);
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+aside {
+  position: fixed;
+  width: 200px;
+  padding-right: 20px;
+  padding-left: 20px;
+  height: 100vh;
+  border-right: 1px solid #00ADEE;
+}
+
+aside img {
+  height: 120px;
+  display: block;
+  margin: 0 auto;
+}
+
+main {
+  margin-left: 200px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+aside li {
+  list-style: none;
+  text-align: center;
+  text-transform: uppercase;
+  border-bottom: 1px solid #00ADEE;
+  margin: 10px auto;
+  padding-bottom: 10;
+  width: 80%;
+  line-height: 2;
+}
+aside li a {
+  font-weight: bold;
+  color: #00ADEE;
+  text-decoration: none;
+}
+
+aside li a:hover {
+  text-decoration: underline;
+}
+
+header {
+  height: 120px;
+}
+
+header img {
+  height: 80%;
+}
+
+img.banner {
+  display: block;
+  width: 100%;
+}
+
+section div {
+  display: inline-block;
+  width: 33%;
+  padding-right: 20px;
+  margin-top: 20px;
+}
+
+section h2 {
+  color: #8cc36f;
+}
+
+section h2 i {
+  margin-right: 10px;
+}
+
+section div:not(:last-child) {
+  border-right: 1px solid #8cc36f;
+
+}
+
+section div:not(:first-child) {
+  padding-left: 20px;
+}

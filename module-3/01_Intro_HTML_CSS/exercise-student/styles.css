@@ -1,0 +1,55 @@
+img {
+    height: 300px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-color: rgb(191, 241, 218);
+
+}
+
+h1 {
+    font-size: 40px;
+    color:sandybrown;
+
+}
+
+h2 {
+    text-decoration-line: underline;
+    text-decoration-thickness: 20px;
+}
+
+li {
+    font-style: italic;
+
+    font-size: larger;
+
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+main {
+    line-height: 320%;
+
+}
+
+header {
+    text-align: center;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
